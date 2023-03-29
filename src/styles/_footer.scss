@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 50%;
+
+    & a {
+        text-decoration: none;
+        color: #46b8b2;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

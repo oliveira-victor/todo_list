@@ -1,0 +1,29 @@
+@use 'header';
+@use 'tasks';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #235aa1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+}
