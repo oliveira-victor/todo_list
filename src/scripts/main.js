@@ -14,7 +14,7 @@ form.addEventListener('submit', function(e) {
         document.querySelector('.tasks').innerHTML += `
         <div class="tasks__task">
             <span id="taskname">${task.value}</span>
-            <img class="tasks__delete" src="./dist/images/close.png" title="Delete task">
+            <img class="tasks__delete" src="./dist/images/close.svg" title="Delete task">
         </div>
         `
 
