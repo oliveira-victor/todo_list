@@ -1,14 +1,11 @@
 .footer {
     text-align: center;
     color: #fff;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    bottom: 0;
-    left: 50%;
+    padding-bottom: 40px;
 
     & a {
         text-decoration: none;
-        color: #46b8b2;
+        color: #235aa1;
 
         &:hover {
             text-decoration: underline;
